@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>應用-GAN</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: relative;
+        }
+
+        h1 {
+            color: #fff;
+            text-align: center;
+            margin-bottom: 0;
+            position: relative;
+            z-index: 1;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+            text-align: center;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #666;
+        }
+
+        .button-container {
+            text-align: center;
+            position: relative; /* 改為相對定位 */
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            width: calc(20% - 10px);
+            box-sizing: border-box;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #fff;
+            color: #000;
+        }
+        footer {
+            background-color: #333;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 1em;
+        }
+        </style>
+</head>
+<body>
+
+    <header>
+        <h1>AI在⾦融防詐領域的應⽤分析</h1>
+        &nbsp;
+        <div class="button-container">
+            <a href="page2.html" class="button">研究動機</a>
+            <a href="page3.html" class="button">應用-GAN</a>
+            <a href="page4.html" class="button">優點與缺點</a>
+            <a href="page5.html" class="button">面臨問題與解決辦法</a>
+            <a href="page6.html" class="button">參考資料</a>
+        </div>
+    </header>
+
+    <section>
+        <h2>應用-GAN</h2>
+        <p>銀行常需蒐集詐欺案例以建立風險控管，AI機器學習透過小樣本學習更準確揪出詐欺案件，其中生成式對抗網路（GAN）是新興作法。GAN提供更靈活、即時的解決方案，可適應金融環境中不斷變化的詐欺手法。</p>
+        <img src="graph.png" alt="生成式對抗網路 (GAN)"width="800">
+        <p>生成式對抗網路 (GAN) 訓練兩個神經網路（生成器、鑑別器）來彼此競爭，從指定的訓練資料集中產生更真實的新資料。因此，GAN會透過生成器來產生仿真的金融詐騙案，再透過鑑別器來判斷真偽，隨著時間推移，鑑別器判斷能力也會越來越強，可用來應付層出不窮的詐欺新手法。</p>
+        <img src="gan1.png" alt="生成式對抗網路 (GAN)"width="800">
+        <img src="gan2.png" alt="生成式對抗網路 (GAN)"width="800">
+        <img src="gan3.png" alt="生成式對抗網路 (GAN)"width="800">
+    </section>
+
+    <footer>
+        <p style="margin: 0;">&copy; 2024.01.04<br>
+            第十組 何語倢 楊玉琦 陳愛愛 江怡臻 吳旻純
+        </p>
+    </footer>
+
+    <script>
+        // You can include additional JavaScript specific to this page if needed
+    </script>
+
+</body>
+</html>
